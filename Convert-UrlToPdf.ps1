@@ -2,7 +2,7 @@ $apiKey = '<api-key>'
 
 $restPdfIoSplat = @{
     Method      = 'POST'
-    Uri         = 'https://api.restpdf.io/pdf'
+    Uri         = 'https://api.restpdf.io/v1/pdf'
     ContentType = 'application/json'
     OutFile     = 'google.pdf'
     Headers     = @{
